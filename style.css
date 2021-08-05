@@ -1,0 +1,73 @@
+
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  outline: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+
+body {}
+
+
+header {
+  padding: 12px 0;
+}
+header .container {}
+header .linha{
+  display: flex;
+  justify-content: space-between;
+}
+header .linha_coluna{}
+header a{}
+header a figure{}
+header a figure img{}
+header ul{}
+header ul li{
+  display: inline-block;
+  margin-left: 10px;
+}
+header ul li a{}
+header ul li a img{}
+
+
+main {}
+main article {}
+main article .container{}
+main article .secaoSobreUsuario .linha{}
+main article .secaoSobreUsuario .linha_coluna{}
+main article .secaoSobreUsuario figure{}
+main article .secaoSobreUsuario figure img{}
+main article .secaoSobreUsuario .SobreUsuario{}
+main article .secaoSobreUsuario .SobreUsuario_nome{}
+main article .secaoSobreUsuario .SobreUsuario_nome h2{}
+main article .secaoSobreUsuario .SobreUsuario_nome button{}
+main article .secaoSobreUsuario .SobreUsuario_seguidores{}
+main article .secaoSobreUsuario .SobreUsuario_seguidores ul{}
+main article .secaoSobreUsuario .SobreUsuario_seguidores ul li{}
+main article .secaoSobreUsuario .SobreUsuario_seguidores ul li a{}
+main article .secaoSobreUsuario .SobreUsuario_seguidores ul li a strong{}
+main article .secaoSobreUsuario .SobreUsuario_descricao{}
+main article .secaoSobreUsuario .SobreUsuario_descricao h3{}
+main article .secaoSobreUsuario .SobreUsuario_descricao p{}
+main article .secaoSobreUsuario .SobreUsuario_descricao p a{}
+
+main article .secaoDestaqueUsuario{}
+main article .secaoDestaqueUsuario ul{}
+main article .secaoDestaqueUsuario ul li{}
+main article .secaoDestaqueUsuario ul li figure{}
+main article .secaoDestaqueUsuario ul li figure img{}
+main article .secaoDestaqueUsuario ul li h3{}
