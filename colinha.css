@@ -64,6 +64,7 @@ section{
   grid-row: 1 / 4;              /*Item vai da linha até a coluna 4*/
   display: flex;                /*Serve para ficar responsivo, colca os itens um do lado do outro*/
   flex-wrap: wrap;              /*Utilizado junto com o display: flex, para quebrar a linha */
+  float: left;                  /*Determina que certo elemento tem que ser jogado para direita ou esquerda*/
 }
 
 /*As media queries, servem para ter um controle da disposição em certas telas*/
